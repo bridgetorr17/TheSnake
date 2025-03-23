@@ -39,10 +39,25 @@ main{
 }
 
 .gameBoard{
-    background: #f7f4f4;
+    background: #cdc3c3;
     width: 75%;
     aspect-ratio: 1/1;
     border-radius: 5%;
+    margin: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(15, 6.65%);
+    grid-template-rows: repeat(15, 6.65%);
+}
+
+.snake{
+    border: #225022 0.3rem solid;
+    background-color: #337933;
+}
+
+.food{
+    background-color: #d35562;
+    border: #de5959 0.3rem solid;
 }
 
 #secretSnake{
